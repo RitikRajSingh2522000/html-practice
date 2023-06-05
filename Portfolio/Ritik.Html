@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Ritik Raj Singh</title>
+    <!--SEO tags-->
+    <meta name="description" content="Ritik Raj Singh is MCA Post graduation from MRIIRS. He is a full-stack developer and Software Professional by prefession." />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="ritik.github.io" />
+    <meta property="og:title" content="Full Stack Developer | Software Professional | BCA graduate From MMHA&P University | Persuing MCA From MRIIRS" />
+    <meta property="og:description" content="Ritik Raj Singh is MCA Post graduation from MRIIRS. He is a full-stack developer and Software Professional by prefession." />
+    <meta property="og:url" content="ritik.github.io" />
+    <meta property="og:site_name" content="ritik.github.io" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Full Stack Developer | Software Professional | BCA graduate From MMHA&P University | Persuing MCA From MRIIRS" />
+    <meta name="twitter:description" content="Ritik Raj Singh is MCA Post graduation from MRIIRS. He is a full-stack developer and Software Professional by prefession." />
+<link rel="stylesheet" href="Ritik.css">
+</head>
+<body>
+    <div id="header">
+        <div class="Container">
+            <nav>
+                <img src="./logo-white-removebg-preview.png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer || Java Developer</p>
+                <h1>Hii, I'm <span>Ritik Raj Singh</span><br>A Software Professional</h1>
+            </div>
+        </div>
+    </div>
+    <!------------about------------>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./IMG_20221206_205952_091.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As you know my name is Ritik Raj Singh, a Software Professional. As a software professional i have strong problem-solving skills, be able to work well in the team environment, and be able to learn and adapt to new technologies and trends.</p>
+                <p>A born leader, public speaker, socialist & Volleyball lover by nature and Programmer by profession. Currently pursuing Master in Computer Application - (MCA) focused in Full Stack Development and Java from Manav Rachna International Institute of Research and Studies (Formerly MRIIRS).</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('Educations')">Educations</p>
+                    <p class="tab-links" onclick="opentab('Internship')">Internship</p>
+                    <p class="tab-links" onclick="opentab('Projects')">Projects</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills"><!--for Skills-->
+                    <ul>
+                        <li><span>Languages</span><br>Java, JavaScript, HTML, CSS, PHP, C, C++ </li>
+                        <li><span>Development tools</span><br>VS Code, Eclipse, Netbeans </li>
+                        <li><span>Database</span><br>My SQL </li>
+                        <li><span>Other</span><br>Data Structure and Algorithms</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience"><!--for Experience-->
+                    <ul>
+                        <li><span>Panchayat Facilitator</span><br>Association for stimulating know how from (Oct 2020- March 2021)</li>
+                        <li><span>Development tools</span><br>VS Code, Eclipse, Netbeans </li>
+                        <li><span>Database</span><br>My SQL </li>
+                        <li><span>Other</span><br>Data Structure and Algorithms</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Educations"><!--for Educations-->
+                    <ul>
+                        <li><span>MCA(Master in Computer Application)</span><br>From Manav Rachna International Institute of research and studies. </li>
+                        <li><span>BCA (Bachelar in computer Application)</span><br>Maulana Mazaharul Haque Arbic & Persian University (Patna)</li>
+                        <li><span>Intermediate/Class XII </span><br>Bihar School Examination Board (Patna) </li>
+                        <li><span>Matric/Class X</span><br>Bihar School Examination Board (Patna)</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Internship"><!--for Internship-->
+                    <ul>
+                        <li><span>Languages</span><br>Java, JavaScript, HTML, CSS, PHP, C, C++ </li>
+                        <li><span>Development tools</span><br>VS Code, Eclipse, Netbeans </li>
+                        <li><span>Database</span><br>My SQL </li>
+                        <li><span>Other</span><br>Data Structure and Algorithms</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Projects"><!--for Project-->
+                    <ul>
+                        <li><span>Languages</span><br>Java, JavaScript, HTML, CSS, PHP, C, C++ </li>
+                        <li><span>Development tools</span><br>VS Code, Eclipse, Netbeans </li>
+                        <li><span>Database</span><br>My SQL </li>
+                        <li><span>Other</span><br>Data Structure and Algorithms</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!--Certifications-->
+    <div id="certification">
+        <div class="container">
+            <h1 class="sub-title">Certifications</h1>
+        </div>
+    </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>

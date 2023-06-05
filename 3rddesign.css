@@ -1,0 +1,30 @@
+body{
+    background: url('./38123.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.nav {
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    float: right;
+  }
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height:400px;
+    width: 300px;
+    margin: 20px;
+    background-color: azure;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+.container {
+    padding: 2px 160px;
+    display:flex;
+    flex-direction: row;
+  }
+  

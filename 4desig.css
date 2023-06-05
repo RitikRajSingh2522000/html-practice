@@ -1,0 +1,42 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Container{
+  height: 20vw;
+  width: 100%;
+  background-color: darkturquoise;
+  align-items: center;
+}
+.Cont{
+    height: 20vw;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding: 2px 160px;
+    display:flex;
+    flex-direction: row;
+    color: azure;
+  }
+  h1{
+    text-align: center;
+  }
+  .leftSide{
+    float: left;
+    height: 100%;
+    width: auto;
+    margin: 50px;
+}
+.center{
+    float: center;
+    height: 100%;
+    width: auto;
+    margin: 50px;
+
+}
+.rightSide{
+    float: right;
+    height: 100%;
+    width: auto;
+    margin: 50px;
+}
